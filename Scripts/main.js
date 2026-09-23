@@ -10,7 +10,7 @@ camera.position.z = 10;
 scene.background=new THREE.Color(0xfadcf9)
 
 
-// Dodehecadron
+// Dodecahedron
 const dodecahedrongeometry = new THREE.DodecahedronGeometry();
 const dodecahedronmaterial = new THREE.MeshNormalMaterial( { color: 0xffff00 } );
 const dodecahedron = new THREE.Mesh( dodecahedrongeometry, dodecahedronmaterial );
@@ -62,7 +62,7 @@ cube.position.y = 0;
 
 function animate( time ) {
 
-    
+
 
 dodecahedron.rotation.x += 0.01;
 dodecahedron.rotation.y += 0.01;
