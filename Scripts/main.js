@@ -60,9 +60,9 @@ cube.position.y = 0;
 
 
 
-
 function animate( time ) {
 
+    
 
 dodecahedron.rotation.x += 0.01;
 dodecahedron.rotation.y += 0.01;
@@ -78,7 +78,6 @@ capsule.rotation.y += 0.01;
 
 cube.rotation.x += 0.01;
 cube.rotation.y += 0.01;
-
 
 
 
